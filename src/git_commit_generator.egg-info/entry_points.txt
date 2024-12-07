@@ -1,0 +1,2 @@
+[console_scripts]
+git-commit-generator = git_commit_generator.generator:main

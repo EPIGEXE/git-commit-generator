@@ -1,0 +1,13 @@
+setup.py
+src/git_commit_generator/__init__.py
+src/git_commit_generator/config.py
+src/git_commit_generator/generator.py
+src/git_commit_generator/git_utils.py
+src/git_commit_generator/models.py
+src/git_commit_generator.egg-info/PKG-INFO
+src/git_commit_generator.egg-info/SOURCES.txt
+src/git_commit_generator.egg-info/dependency_links.txt
+src/git_commit_generator.egg-info/entry_points.txt
+src/git_commit_generator.egg-info/requires.txt
+src/git_commit_generator.egg-info/top_level.txt
+tests/test_generator.py

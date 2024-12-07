@@ -1,0 +1,18 @@
+model:
+  name: "microsoft/codebert-base"
+  max_length: 512
+  temperature: 0.7
+  num_beams: 4
+  top_k: 50
+  top_p: 0.95
+
+commit_format:
+  template: "{type}: {message}"
+  types:
+    - feat     # 새로운 기능
+    - fix      # 버그 수정
+    - docs     # 문서 수정
+    - style    # 코드 포맷팅
+    - refactor # 코드 리팩토링
+    - test     # 테스트 코드
+    - chore    # 기타 변경사항
